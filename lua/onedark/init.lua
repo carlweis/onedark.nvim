@@ -25,7 +25,7 @@ local colors = {
 local highlights = {
 
   -- Syntax Groups (descriptions and ordering from `:h w18`)
-  { hg = 'Comment', fg = colors.comment_grey, bg = NONE, guibg = NONE,  gui = 'italic', cterm = 'italic' }, -- any comment
+  { hg = 'Comment', fg = colors.comment_grey, bg = NONE, guibg = '#5c6370',guifg = '#292c34',  gui = 'italic', cterm = 'italic' }, -- any comment
   { hg = 'Constant', fg = colors.cyan }, --any constant
   { hg = 'String', fg = colors.green }, --a string constant: "this is a string"
   { hg = 'Character', fg = colors.green }, --a character constant: 'c', '\n'
